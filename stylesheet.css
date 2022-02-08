@@ -1,0 +1,430 @@
+
+
+
+body{
+  margin:0;
+  padding:0;
+}
+
+
+header{
+  background-image: url(img/top-image.jpg);
+  background-size:cover;
+  width:100%;
+  height:800px;
+  margin:0px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 30px 21px;
+  
+  
+  display: none;
+}
+
+
+
+
+
+.container{
+  width:100%;
+  margin:0 auto;
+
+}
+
+.header-logo img{
+  width:130px;
+  margin-top:20px;
+  float:left
+}
+
+.header-contents a{
+  float:left;
+  padding-right: 60px;
+  color:white;
+  margin-top:40px;
+  text-decoration:none;
+  
+}
+
+.header-contents{
+  margin-left:400px;
+  
+}
+
+
+
+.btn{
+  
+  
+  margin-top: 40px;
+  margin-right:10px;
+  color:white;
+  display: inline-block;
+  
+}
+
+.cart{
+  margin:40px 40px 70px 220px;
+}
+
+/*ログインボタン*/
+.login{
+  margin-left: 30px;
+}
+
+/*ログインモーダル*/
+.login-modal-wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.login-modal{
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #ffffff;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.login-modal input{
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #c6e8fc;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #f1b25f;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.copy{
+  width: 100%;
+  padding:100px 0px;
+}
+
+
+
+h1{
+  margin:0px;
+  color:white;
+  text-align:center;
+  font-family: "Big Caslon";
+  font-size:100px;
+  letter-spacing: 6px;
+  padding:100px 0px 160px 0;
+  
+  
+  display: none;
+
+}
+
+.about-wrapper{
+  background-color:#C6C4C5;
+  margin:0;
+  
+}
+.about-wrapper img{
+  width:600px;
+  float:left;
+  
+}
+
+.about{
+  text-align: center;
+  font-family: "Big Caslon";
+  
+}
+
+.clear{
+  clear:left;
+  
+}
+
+.about h2{
+  margin:0px;
+  padding:200px 0 50px 0;
+  font-size: 64px;
+  color:#CBA9A9;
+}
+h3{
+  font-size: 41px;
+}
+
+.about p{
+  font-size: 22px;
+}
+
+.products-wrapper{
+  background-image: url(img/products_buckground_img.jpg);
+  
+  
+}
+
+
+.product img{
+  height: 300px;
+  
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.products-wrapper h2{
+  font-size:64px;
+  color:#CBA9A9;
+  text-align: center;
+  font-family: "Big Caslon";
+  margin-top:0;
+  padding-top:100px;
+  
+}
+
+.product-name{
+  width:200px;
+  
+}
+
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+
+.contact-wrapper {
+  color: #fff;
+  background-color: dimgray;
+  padding: 50px 0;
+}
+
+.contact-contents {
+  max-width: 1240px;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+dd {
+  display: block;
+  margin-inline-start: 0px;
+}
+
+
+
+
+
+.contact-wrapper h2{
+  font-size: 64px;
+  color:#CBA9A9;
+  text-align:center;
+  font-family: "Big Caslon";
+}
+
+
+
+
+.contact-info p {
+  margin-bottom: 30px;
+}
+.contact-info,.contact-form {
+  width: 45%;
+}
+
+.contact-form input,.contact-form textarea {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form .button input {
+  width: 200px;
+  color: #fff;
+  background-color: #121212;
+  border: solid 1px #fff;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+.contact-form .button input:hover {
+  color: #202020;
+  background-color: #fff;
+}
+
+
+footer{
+  background-color:black;
+}
+
+.footer-logo img{
+  width:130px;
+  padding:40px 5px 0 20px;
+  float:left;
+}
+
+.footer-contents ul{
+  float: right;
+  padding: 0 20px 0 0;
+}
+
+.footer-contents li {
+  list-style: none;
+  color:#ffffff;
+}
+
+.footer-contents a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+.footer-clear{
+  clear: both;
+  
+}
+
+@media (max-width:1000px) {
+  /* lessonクラスのCSSを指定してください */
+  h1{
+    width: 50%;
+    font-size: 50px;
+  }
+
+  .contact-form{
+    width: 50%;
+  }
+  
+  
+  
+
+  
+
+}
+
+  @media (max-width:1000px) {
+         h1{
+          width: 100%;
+          font-size: 50px;
+        }
+        
+        .lesson{
+          width:100%;
+        }
+
+        .about h2 ,  .contact-wrapper h2 , .products-wrapper h2{
+          
+          font-size: 50px;
+        }
+
+        h3{
+          font-size: 30px;
+        }
+
+        .about p{
+          font-size: 15px;
+        }
+
+        .header-contents{
+          display: none;
+        }
+
+        .btn-wrapper{
+          display: none;
+        }
+
+        .menu-icon{
+          display:block;
+        }
+
+        .contact-info{
+          width: 100%;
+        }
+
+        .contact-form{
+          width: 100%;
+        }
+
+        
+
+        
+       
+
+
+  }
+
+    @media (max-width:670px) {
+        h1{
+          width: 100%;
+          font-size: 50px;
+        }
+        
+        
+        .product{
+          width:100%;
+        }
+
+        .contact-contents{
+          display: unset;
+          text-align: center;
+          width: 50%;
+          
+        }
+        .contact-info , .contact-form{
+          width: 80%;
+        }
+
+        .header-contents{
+          display: none;
+        }
+
+        .btn-wrapper{
+          display: none;
+        }
+
+        .menu-icon{
+          display:block;
+        }
+
+        .contact-info{
+          width: 100%;
+        }
+
+        
+        
+        
+        
+    }
+
+  
