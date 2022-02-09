@@ -7,6 +7,16 @@ $('#modal-btn').click(function(){
 $('#submit-btn').click(function(){
   $('.login-modal-wrapper').fadeOut();
 })
+  
+  $('#cart-btn').click(function(){
+  $('.cart-modal-wrapper').fadeIn();
+})
+
+
+
+$('.submit-btn').click(function(){
+  $('.cart-modal-wrapper').fadeOut();
+})
 
 $('.copy').ready(function(){
   $('h1').fadeIn(2000);
