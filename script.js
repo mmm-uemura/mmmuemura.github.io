@@ -1,6 +1,6 @@
 $(function(){
 
-$('.modal-btn').click(function(){
+$('#modal-btn').click(function(){
   $('.login-modal-wrapper').fadeIn();
 })
 
