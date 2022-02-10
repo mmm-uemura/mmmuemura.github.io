@@ -3,12 +3,13 @@ $(function(){
 $('#modal-btn').click(function(){
   $('.login-modal-wrapper').fadeIn();
 })
-
 $('.submit-btn').click(function(){
   $('.login-modal-wrapper').fadeOut();
 })
-  
-  $('#cart-btn').click(function(){
+
+
+
+$('#cart-btn').click(function(){
   $('.cart-modal-wrapper').fadeIn();
 })
 
