@@ -132,7 +132,7 @@ header{
   text-align: center;
 }
 
-#submit-btn {
+.submit-btn {
   display: inline-block;
   padding: 14px 140px;
   background-color: #f1b25f;
