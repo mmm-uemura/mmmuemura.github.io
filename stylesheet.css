@@ -73,7 +73,7 @@ header{
 
 /*ログインボタン*/
 .login{
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 /*ログインモーダル*/
@@ -87,6 +87,8 @@ header{
   z-index: 100;
   display: none;
 }
+
+
 
 .login-modal{
   position: absolute;
@@ -109,6 +111,18 @@ header{
   border-radius: 5px;
 }
 
+.submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #f1b25f;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/*カートモーダル*/
 .cart-modal-wrapper{
   position: fixed;
   top: 0;
@@ -130,17 +144,6 @@ header{
   width: 450px;
   height: auto;
   text-align: center;
-}
-
-.submit-btn {
-  display: inline-block;
-  padding: 14px 140px;
-  background-color: #f1b25f;
-  border: none;
-  border-radius: 3px;
-  color: white;
-  margin: 10px auto;
-  cursor: pointer;
 }
 
 
