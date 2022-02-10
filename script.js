@@ -1,10 +1,10 @@
 $(function(){
 
-$('#modal-btn').click(function(){
+$('.modal-btn').click(function(){
   $('.login-modal-wrapper').fadeIn();
 })
 
-$('#submit-btn').click(function(){
+$('.submit-btn').click(function(){
   $('.login-modal-wrapper').fadeOut();
 })
   
